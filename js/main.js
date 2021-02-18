@@ -25,3 +25,29 @@ let btn1 = new Vue({
         }
     }
 })
+
+
+new Vue({
+
+    el: "#contador",
+    data: {
+
+        resultado: 0
+    },
+    methods: {
+
+        mais() {
+
+            this.resultado++
+
+
+        },
+
+        menos() {
+
+            this.resultado--
+
+
+        }
+    }
+})
