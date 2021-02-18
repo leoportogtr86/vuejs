@@ -13,6 +13,14 @@ Meus estudos do framework Vue [JS](https://br.vuejs.org/) para criação de inte
 
 
 
+## Rodando o projeto
+
+
+    npm start
+
+
+
+
 ## Instanciando o Vue Js
 
 Para manipular elementos da DOM, precisamos instanciar o vue e associá-lo ao **el**emento.
