@@ -1,0 +1,21 @@
+{
+  "name": "vuejs",
+  "version": "1.0.0",
+  "description": "![](https://miro.medium.com/max/2430/1*ACR0gj0wbx91V_xgURifWg.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoportogtr86/vuejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leoportogtr86/vuejs/issues"
+  },
+  "homepage": "https://github.com/leoportogtr86/vuejs#readme"
+}
