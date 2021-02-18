@@ -6,14 +6,14 @@
 Meus estudos do framework Vue JS.
 
 
-### Importando o VUE JS
+## Importando o VUE JS
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 
 
 
 
-### Instanciando o Vue Js
+## Instanciando o Vue Js
 
 Para manipular elementos da DOM, precisamos instanciar o vue e associá-lo ao **el**emento.
 
@@ -37,9 +37,51 @@ Para manipular elementos da DOM, precisamos instanciar o vue e associá-lo ao **
     })
 
 
+## Contador VUE JS
+
+**HTML**
+
+    <div class="contador" id="contador">
+        <h2>Contador</h2>
+        <h3>{{resultado}}</h3>
+
+        <div class="botoes">
+            <button class="menos" v-on:click="menos">-</button>
+            <button class="mais" v-on:click="mais">+</button>
+        </div>
+
+    </div>
+
+
+**JS**
 
 
 
+    new Vue({
+
+        el: "#contador",
+        data: {
+
+            resultado: 0
+        },
+        methods: {
+
+            mais() {
+
+                this.resultado++
 
 
- 
+            },
+
+            menos() {
+
+                this.resultado--
+
+
+            }
+        }
+    })
+
+
+
+    
