@@ -3,7 +3,7 @@
 
 # VueJS
 
-Meus estudos do framework Vue JS.
+Meus estudos do framework Vue [JS](https://br.vuejs.org/) para criação de interfaces com Javascript.
 
 
 ## Importando o VUE JS
